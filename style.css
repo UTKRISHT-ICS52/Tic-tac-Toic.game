@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(12, 12, 12);
+    /* background-color: pink; */
+}
+ 
+nav ul li{
+    list-style: none;
+    /* height: 112px; */
+    /* font-size: larger; */
+    /* background-color: rgb(7, 7, 7); */
+
+
+}
+nav {
+    background-color: rgb(56, 65, 239);
+    color: rgb(238, 239, 252);
+    height: 60px;
+    padding: 0 3%;
+    display: flex;
+    align-items: center;
+    font-size:15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.game{
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    margin-top:11%;
+
+
+}
+.container{
+    padding: 5px;
+    /* background-color: aqua; */
+    display: grid;
+    grid-template-columns: 10vw 10vw 10vw;
+    grid-template-rows: 10vw, 10vw, 10vw;
+    font-family:cursive;
+    height: 50vh;
+    
+}
+.box{
+    border: 1.3px solid rgb(247, 238, 238);
+    text-align: center;
+    font-size: 4vw;
+    color: rgb(144, 245, 135);
+}
+.box:hover{
+    background-color: rgb(153, 112, 236);
+
+}
+/* .text:hover{
+    background-color: aqua;
+} */
+.gameInfo{
+    padding: 0 34px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+.imagebox img{
+    width:0;
+    transition: width 2s ease-in-out;
+
+}
+.bt{
+    border-top: 0;
+}
+.bl{
+    border-left: 0;
+}
+.br{
+    border-right: 0;
+}
+.bb{
+    border-bottom: 0;
+}
+#reset{
+    border-radius: 5px;
+    background: linear-gradient(rgb(241, 91, 241), pink);
+    /* box-shadow: (5px 5px 15px red  ); */
+    width: 130px;
+    height: 30px;
+    cursor: pointer;
+    margin: 10% 5%;
+}
+@media screen and (max-width:800px) {
+    .game{
+        flex-wrap: wrap;
+
+    }
+    .info{
+        margin-top: 34px;
+
+    }
+    .info h1{
+        font-size: 1.5rem; ;
+    }
+    .container{
+        grid-template-columns: 20vw 20vw 20vw;
+        grid-template-rows: 20vw, 20vw, 20vw;
+    
+    }
+
+}
