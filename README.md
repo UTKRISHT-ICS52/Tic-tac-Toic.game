@@ -1,4 +1,4 @@
 # Tic-tac-Toe.game
-<img align="center" alt="coding" width="400" src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/223/338/datas/original.png">
 
+![Screenshot 2025-02-20 025710](https://github.com/user-attachments/assets/496f5d82-3c11-4d31-8136-c088155c1f3d)
 <h2>Thank you!</h2>
